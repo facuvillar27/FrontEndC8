@@ -1,0 +1,107 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("../img/fondo.jpg");
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #005677;
+    /* background-color: #c4c4c4; */
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 0px;  
+}
+
+.subtitle {
+    color: #005677;
+    /* background-color: #c4c4c4; */
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;   
+}
+
+.titleList {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.elemento {
+    font-style: normal;
+    font-weight: normal;
+}
+
+.number {
+    
+    font-weight: bold;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+main {
+    margin-top: 0px;
+    margin-bottom: 120px;
+}
+
+footer {
+    color: white;
+    background-color: #005677 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerText {
+    margin: 10px;
+}
+
+.redSocial {
+    margin: 10px;
+}
+
+.menuIndex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: #c4c4c4; */
+    margin-top: 0px;
+    border-top-color: #005677;
+    border-top-width: 5px;
+    border-top-style: groove;
+    border-bottom-color: #005677;
+    border-bottom-width: 5px;
+    border-bottom-style: groove;
+}
+
+.menuIndex a {
+    color: #005677;
+    text-decoration: none;
+}
+
+.menuIndex li {
+    display: flex;
+    align-items: center;
+}
+
+.fotoPerfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.mainSobreMi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
